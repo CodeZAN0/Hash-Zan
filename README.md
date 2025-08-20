@@ -2,6 +2,7 @@
 A powerful Python-based hash cracking tool that supports multiple cryptographic algorithms and uses dictionary attacks to recover original strings from hashed values.
 
 
+<img width="1116" height="626" alt="Screenshot 2025-08-20 192715" src="https://github.com/user-attachments/assets/ca37c236-c5c6-41bd-96d1-26c7adcd0257" />
 
 # ✨ Features
 + 🔢 Multiple Algorithm Support: MD5, SHA1, SHA256, SHA512, and more via Python's hashlib
