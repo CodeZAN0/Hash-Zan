@@ -4,22 +4,23 @@ A powerful Python-based hash cracking tool that supports multiple cryptographic 
 
 
 # ✨ Features
-🔢 Multiple Algorithm Support: MD5, SHA1, SHA256, SHA512, and more via Python's hashlib
++ 🔢 Multiple Algorithm Support: MD5, SHA1, SHA256, SHA512, and more via Python's hashlib
 
-🎨 Colorized Interface: Clear visual feedback with color-coded outputs using Colorama
++ 🎨 Colorized Interface: Clear visual feedback with color-coded outputs using Colorama
 
-📚 Wordlist Attacks: Dictionary-based cracking with support for large wordlists
++ 📚 Wordlist Attacks: Dictionary-based cracking with support for large wordlists
 
-🚨 Comprehensive Error Handling: Graceful handling of file operations and invalid inputs
++ 🚨 Comprehensive Error Handling: Graceful handling of file operations and invalid inputs
 
-🌍 UTF-8 Encoding Support: International wordlist compatibility
++ 🌍 UTF-8 Encoding Support: International wordlist compatibility
 
 # 🚀 Installation
 Clone the repository:
 
-bash
+```
 git clone https://github.com/CodeZANKO/hash-Zan.git
-cd hash-cracker
+cd Hash-Zan
+```
 Install dependencies:
 
 ```
@@ -40,14 +41,15 @@ Hash algorithm type (md5, sha1, sha256, sha512, etc.)
 Path to your wordlist file
 
 # 🧮 Supported Hash Algorithms
-This tool supports all algorithms available in Python's hashlib module:
+This tool supports all algorithms available in Python's hashlib module:<br/>
 
-Algorithm Family	Specific Algorithms
-MD	MD5
-SHA	SHA1, SHA224, SHA256, SHA384, SHA512
-SHA3	SHA3-224, SHA3-256, SHA3-384, SHA3-512
-BLAKE	BLAKE2b, BLAKE2s
-Other	All other hashlib supported algorithms
+Algorithm Family |	Specific Algorithms<br/>
+__________________________________<br/>
+MD	             | MD5<br/>
+SHA	             | SHA1, SHA224, SHA256, SHA384, SHA512<br/>
+SHA3	         | SHA3-224, SHA3-256, SHA3-384, SHA3-512<br/>
+BLAKE	         | BLAKE2b, BLAKE2s<br/>
+Other	         | All other hashlib supported algorithms<br/>
 # 📋 Example
 ```
 Enter Your Hash: 5d41402abc4b2a76b9719d911017c592
@@ -60,16 +62,17 @@ Python 3.6+
 
 colorama (for colored terminal output)
 
+hashlib
 # 📁 Project Structure
 text
 hash-cracker/
-├── hash_cracker.py    # Main application
-├── requirements.txt   # Dependencies
-├── LICENSE           # License file
-├── README.md         # Project documentation
-└── wordlists/        # Directory for wordlists (optional)
-    ├── common.txt
-    └── passwords.txt
+├── hash_cracker.py    # Main application<br/>
+├── requirements.txt   # Dependencies<br/>
+├── LICENSE           # License file<br/>
+├── README.md         # Project documentation<br/>
+└── wordlists/        # Directory for wordlists (optional)<br/>
+    ├── common.txt<br/>
+    └── passwords.txt<br/>
 # 🤝 Contributing
 Contributions are welcome! Feel free to:
 
